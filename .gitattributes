@@ -1,0 +1,8 @@
+# Ignorar arquivos CSS de bibliotecas (como Bootstrap) no cálculo do GitHub Linguist
+assets/css/* linguist-vendored
+public/css/* linguist-vendored
+bootstrap/* linguist-vendored
+/css/* linguist-vendored
+
+# Ignorar outros arquivos CSS não-autoriais
+*.min.css linguist-vendored
